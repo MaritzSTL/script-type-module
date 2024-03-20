@@ -1,4 +1,4 @@
-__scriptTypeModuleEval = function(__moduleSrc){
+var __scriptTypeModuleEval = function(__moduleSrc){
   new Function(__moduleSrc)();
 };
 (function () {
